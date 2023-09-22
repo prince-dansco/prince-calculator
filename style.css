@@ -1,0 +1,104 @@
+* {
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.continer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 250px;
+    margin: 0 auto;
+    border-radius: 1.1rem;
+
+
+}
+
+.sub-con {
+    width: 100%;
+    padding: 15px;
+    background-color: #000000;
+    border-radius: 1.1rem;
+    /* background-image: linear-gradient(to right, #000000, #ffa500); */
+}
+ form .list-1{
+     display: flex;
+   align-self: flex-end;
+    font-size: 1.2em;
+
+    
+}
+
+ .list-1 input {
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    color: white;
+    text-align: end;
+    font-size: 1.2rem;
+    margin: 15px;
+ 
+
+}
+
+.list-2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 12px;
+}
+
+ .list-2 input {
+    box-shadow: 0px 5px 12px #615959e6;
+    border-radius: 1.1em;
+    border: none;
+    padding: 12px;
+    background-color: hwb(76 28% 0% / 0.596);
+    /* background-image: linear-gradient(to bottom, #ff6347, #0000ff); */
+    color: white;
+   font-size: 1.1rem;
+}
+ .list-2 .operator-1{
+    color: white; 
+    background-color: hsla(177, 100%, 64%, 0.514);
+}
+ .list-2 .operator-2{
+    color: white; 
+    background-color: hsl(293, 100%, 64%);
+}
+ .list-2 .operator-3{
+    color: white; 
+    background-color: hsl(199, 100%, 64%);
+}
+ .list-2 .operator-5{
+    color: white; 
+    background-color: hsl(56, 100%, 64%);
+}
+ .list-2 .operator-4{
+    color: white; 
+    background-color: hsl(323, 100%, 64%);
+}
+ .list-2 .operator-6{
+    color: white; 
+    background-color: hsl(36, 100%, 64%);
+}
+ .list-2 .operator-7{
+    color: white; 
+    background-color: hwb(355 28% 0%);
+}
+
+#equa{
+    background-color: #47ff84;
+    color: white;
+    display: grid;
+    grid-column: span 2;
+}
